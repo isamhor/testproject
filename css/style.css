@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: "High Tower Text";
+    font-size: 16px;
+    display: inline;
+    color: #595959;
+    text-transform: uppercase;
+}
+
+a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #595959;
+}
+
+html {
+    overflow-x: hidden;
+    background-image: url('../images/bg.png');
+}
+
+.float-wrapper {
+    margin: auto 64px auto 60px;
+}
+
+.container {
+    width: 100%;
+    height: 450px;
+    background-image: url('../images/nav_bg.png');
+    background-size: cover;
+}
+
+.nav-bg {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 80px;
+}
+
+.logo {
+
+    float: left;
+}
+
+.nav-items {
+    float: right;
+    margin-top: 19px;
+    margin-bottom: 10px;
+}
+.nav-items.list {
+    clear: right;
+    margin-top: 0;
+}
+nav a{
+    margin-right: 30px;
+}
+nav a:last-child {
+    margin-right: 0;
+}
