@@ -4,25 +4,19 @@
     }
 }
 
-
 @media screen and (max-width: 1245px) {
     .float-wrapper  {
-        /*margin: 0;*/
-        /*margin-right: 10px;*/
     }
     .nav-bg {
         height: 80px;
         text-align: center;
-
     }
 }
 
 @media screen and (max-width: 1175px) {
     .float-wrapper  {
         margin: 0 15px 0 15px;
-       
     }
-
 }
 
 @media screen and (max-width: 1006px) {
